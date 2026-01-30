@@ -1,0 +1,21 @@
+@layer base {
+  *, *::before, *::after {
+    box-sizing: border-box;
+  }
+
+  html {
+    font-size: var(--text-base);
+  }
+
+  body {
+    min-height: 100%;
+    font-family: var(--font-body);
+    line-height: 1.5;
+    color: var(--color-neutral-0);
+    background-color: var(--color-neutral-900);
+  }
+
+  h1, h2, h3, h4 {
+    font-family: var(--font-display);
+  }
+}
